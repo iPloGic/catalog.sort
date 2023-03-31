@@ -39,5 +39,5 @@ $arJsParams = [
 ];
 ?>
 <script type="text/javascript">
-	let obJCCatalogSortingComponent = new JCCatalogSortingComponent(<?=CUtil::PhpToJSObject($arJsParams)?>);
+	window.obJCCatalogSortingComponent = new JCCatalogSortingComponent(<?=CUtil::PhpToJSObject($arJsParams)?>);
 </script>
